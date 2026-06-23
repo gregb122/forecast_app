@@ -2,6 +2,13 @@
 
 ![weathergif](weatherapp.gif)
 
+## Opis projektu
+
+Aplikacja prezentuje prognozę pogody dla wybranych miast, widok szczegółów prognozy,
+obsługę ulubionych lokalizacji oraz zmianę jednostek temperatury. Frontend został
+przygotowany w React + Vite, a lokalne API i uruchomienie produkcyjne są dostępne
+przez Docker Compose.
+
 ## Instrukcja uruchomienia projektu
 
 ### Wersja produkcyjna (Docker Compose)
@@ -29,7 +36,16 @@
 3. Frontend będzie dostępny pod adresem:
    `http://localhost:3000`
 
-### CI/CD
+## Podział pracy
 
-- Pull requesty do `main`: lint + build.
-- Push do `main`: lint + build + budowa i publikacja obrazu do GHCR.
+- Amadeusz Skorupka: konfiguracja projektu, podstawowe pliki HTML/JS, zależności i ustawienia repozytorium.
+- Mateusz Polarczyk: widoki aplikacji, komponenty prognozy pogody, lista miast i szczegóły prognozy.
+- Agnieszka Skoczylas: dokumentacja projektu, opis uruchomienia i porządkowanie materiałów projektowych.
+- Grzegorz Bielecki: konfiguracja Docker, Docker Compose, nginx oraz lokalne API.
+
+## Informacja o repozytorium
+
+Projekt był rozwijany zespołowo na jednym stanowisku roboczym, a repozytorium
+zostało uporządkowane jako końcowa wersja prezentacyjna. Historia gałęzi pokazuje
+podział większych części implementacji oraz etap integracji przed wydaniem stabilnej
+wersji.
