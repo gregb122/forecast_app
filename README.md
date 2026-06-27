@@ -43,9 +43,3 @@ przez Docker Compose.
 - Agnieszka Skoczylas: dokumentacja projektu, opis uruchomienia i porządkowanie materiałów projektowych.
 - Grzegorz Bielecki: konfiguracja Docker, Docker Compose, nginx oraz lokalne API.
 
-## Informacja o repozytorium
-
-Projekt był rozwijany zespołowo na jednym stanowisku roboczym, a repozytorium
-zostało uporządkowane jako końcowa wersja prezentacyjna. Historia gałęzi pokazuje
-podział większych części implementacji oraz etap integracji przed wydaniem stabilnej
-wersji.
